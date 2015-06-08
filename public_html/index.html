@@ -27,22 +27,22 @@
                         <tbody>
                             <tr>
                                 <td>Amount</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="amountText" onkeydown="return validAmount(event)"></td>
                             </tr>
                             <tr>
                                 <td>Rate</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="rateText" maxlength="2" onkeydown="return validRate(event)"></td>
                             </tr>
                             <tr>
                                 <td>Months</td>
-                                <td><input type="text"></td>
+                                <td><input type="text" id="monthsText" maxlength="2"  onkeydown="return validMonths(event)"></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <button onclick="getInterest()" id="button">Calculate</button>
                 <br><br><br><br><br><br><br>
-                <p id="interest">Interest<input type="text" ></p>
+                <p>Interest<input type="text" id="interest" readonly></p>
             </div>
         </div>  
     </body>

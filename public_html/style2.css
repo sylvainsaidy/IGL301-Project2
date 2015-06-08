@@ -1,0 +1,48 @@
+#wrapper{
+    width:900px;
+    margin:auto;
+}
+#menu ul{
+    margin-top:40px;
+    padding-left: 40px;
+}
+#menu li{
+    list-style-type: none;
+    display:inline;
+    padding:0px 60px;
+}
+#menu a{
+    color: green;
+    font-size:30px;
+}
+#left{ 
+    background-color: white;
+    float:left;
+    width:393px;
+    font-size:30px;
+    color:green;
+}
+#left p{
+    padding: 0px 73px;
+    margin-top:-7px;
+}
+#right{
+    background-color: green;
+    color:white;
+    width:910px;
+    height:350px;
+    margin-right: 50px;
+}
+#right #text{
+    padding-top:50px;
+    position: relative;
+    left:50px;
+}
+#right #button{
+    position: relative;
+    left:185px;
+}
+#right #interest{
+    position: relative;
+    left: 250px;
+}

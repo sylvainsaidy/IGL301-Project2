@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IGL301 Project 2</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="javascript2.js"></script>
+        <link href="style2.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">More</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div id="left">
+                <img src="money-logo.jpg" alt="money logo">
+                <p>Interest Rate</p>
+            </div>
+            <div id="right">
+                <div id="text">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Amount</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Rate</td>
+                                <td><input type="text"></td>
+                            </tr>
+                            <tr>
+                                <td>Months</td>
+                                <td><input type="text"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <button onclick="getInterest()" id="button">Calculate</button>
+                <br><br><br><br><br><br><br>
+                <p id="interest">Interest<input type="text" ></p>
+            </div>
+        </div>  
+    </body>
+</html>
